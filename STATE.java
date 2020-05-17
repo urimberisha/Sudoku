@@ -1,5 +1,5 @@
 public enum STATE {
-   MENU,
+   MENU, 
    DIFF,
    GAME,
    RULES,
