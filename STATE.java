@@ -4,5 +4,5 @@ public enum STATE {
    GAME,
    RULES,
    ABOUT,
-   QUIT,
+   QUIT, 
 }; 

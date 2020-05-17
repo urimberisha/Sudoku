@@ -7,6 +7,6 @@ public class MVCSudoku {
       SudokuController theController = new SudokuController(theView, tempModel);      
       
       theView.setVisible(true);
-        
+
     }
 }

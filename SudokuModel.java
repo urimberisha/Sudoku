@@ -172,7 +172,7 @@ public class SudokuModel {
          for (int j = i+1; j<array.length; j++) {
             if ( array[i][col] == array[j][col] ) {
             
-               return true;
+               return true; 
             
             }
          }         
