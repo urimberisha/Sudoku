@@ -22,9 +22,9 @@ public class SudokuView extends JPanel {
    public SudokuView() {
    
       state = STATE.MENU;
-      titleColor = new Color(236,239,244);       
-      bgColor = new Color(76,86,106);  
-		titleFont = new Font("Century Gothic", Font.PLAIN, 28);    
+      titleColor = new Color(236,239,244);
+      titleFont = new Font("Century Gothic", Font.PLAIN, 28);       
+      bgColor = new Color(76,86,106);
       initializeFrame();
       
    }
