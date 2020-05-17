@@ -8,7 +8,6 @@ import javax.swing.*;
 public class SudokuController {
 	
 	private SudokuView theView;
-   	private Main theView2;
 	private SudokuModel theModel;
 	
 	public SudokuController(SudokuView theView, SudokuModel theModel) {
