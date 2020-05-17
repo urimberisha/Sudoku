@@ -8,21 +8,21 @@ import javax.swing.*;
 public class SudokuController {
 	
 	private SudokuView theView;
-   private Main theView2;
+   	private Main theView2;
 	private SudokuModel theModel;
 	
 	public SudokuController(SudokuView theView, SudokuModel theModel) {
 		this.theView = theView;
 		this.theModel = theModel;
 		
-      // Creating a SudokuListener object and adding the view and model objects to it
-      SudokuListener listener = new SudokuListener();
-      listener.addModel(theModel);     
-      listener.addView(theView);
+      		// Creating a SudokuListener object and adding the view and model objects to it
+      		SudokuListener listener = new SudokuListener();
+      		listener.addModel(theModel);     
+      		listener.addView(theView);
 
-      // The view needs model to show the Sudoku values
-      // as well as the mouse listener to make it playable
-      theView.addModel(theModel);       
+      		// The view needs model to show the Sudoku values
+      		// as well as the mouse listener to make it playable
+      		theView.addModel(theModel);       
 		theView.addSudokuListener(listener);
       
       
