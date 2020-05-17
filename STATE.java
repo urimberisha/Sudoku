@@ -5,4 +5,4 @@ public enum STATE {
    RULES,
    ABOUT,
    QUIT,
-};
+}; 
