@@ -234,6 +234,7 @@ public class SudokuView extends JPanel {
             try { Thread.sleep(500); } 
             catch (Exception e){}             
             JOptionPane.showMessageDialog(null, "You did it!! Click BACK to start over.");
+            gameSolved = true;            
          }
       }
       
